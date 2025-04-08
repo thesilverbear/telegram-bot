@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: BotTelegram
-    env: static
-    staticPublishPath: .
-    buildCommand: ""
-    startCommand: php -S 0.0.0.0:80 bot.php
